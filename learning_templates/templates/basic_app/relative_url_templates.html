@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>welcome to relative url templates</h1>
+    <!-- basic_app must match to the app name which is given in urls.py-basic_app(file) -->
+    <a href="{% url 'basic_app:other' %}">Click here to check whats next</a>
+    <a href="{% url 'admin:index' %}">LINK TO ADMIN PAGE</a>
+    <a href="{% url 'index' %}">Go to index pages</a>
+
+
+  </body>
+</html>
